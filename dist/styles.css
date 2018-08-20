@@ -1,0 +1,131 @@
+
+.helper[data-v-f6526c70] {
+  font-weight: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  line-height: 30px;
+  background-color: #fff;
+  font-size: 14px;
+  font-smoothing: antialiased;
+}
+.left[data-v-f6526c70],
+.center[data-v-f6526c70],
+.tabs[data-v-f6526c70] {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.left[data-v-f6526c70],
+.center[data-v-f6526c70] {
+  width: 150px;
+}
+.left[data-v-f6526c70] {
+  text-align: left;
+}
+.clear[data-v-f6526c70] {
+  text-align: right;
+  cursor: pointer;
+}
+.tabs[data-v-f6526c70] {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.tabs *[data-v-f6526c70] {
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
+  border: 1px solid rgba(175,47,48,0);
+}
+.tabs *.actived[data-v-f6526c70] {
+  border-color: rgba(175,47,47,0.5);
+  border-radius: 5px;
+}
+
+.todo-item[data-v-1af9cf62] {
+  position: relative;
+  background-color: #fff;
+  font-size: 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+.todo-item:hover .destory[data-v-1af9cf62]:after {
+  content: 'x';
+}
+.todo-item label[data-v-1af9cf62] {
+  white-space: pre-line;
+  word-break: break-all;
+  padding: 15px 60px 15px 15px;
+  margin-left: 45px;
+  display: block;
+  line-height: 1.2;
+  transition: color 0.4s;
+}
+.todo-item.completed label[data-v-1af9cf62] {
+  color: #d9d9d9;
+  text-decoration: line-through;
+}
+.toggle[data-v-1af9cf62] {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  border: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+}
+.toggle[data-v-1af9cf62]:after {
+  content: '';
+  display: inline-block;
+  background-color: transparent;
+  width: 40px;
+  height: 100%;
+  overflow: hidden;
+}
+.toggle[data-v-1af9cf62]:checked:after {
+  background-color: #ff0;
+}
+.destory[data-v-1af9cf62] {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  margin: auto 0;
+  font-size: 30px;
+  color: #cc9a9a;
+  margin-bottom: 11px;
+  transition: color 0.2s ease-out;
+  background-color: transparent;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-width: 0;
+  cursor: pointer;
+  outline: none;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: url(805f61688b3ba2dddd98de5f0eefa5f2_aaa.jpg);
+  background-size: cover;
+  background-position: center;
+  font: 14px 'Helvetica Nenu';
+  color: #4d4d4d;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+#footer {
+  margin: 40px;
+  text-align: center;
+  color: #bfbfbf;
+  font-size: 10px;
+  text-shadow: 0 1px 0 #646464;
+}
